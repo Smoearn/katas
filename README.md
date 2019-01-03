@@ -21,4 +21,4 @@
 
 
 *Future katas:* <br/>
-test 
+KT6: https://www.codewars.com/kata/duplicate-encoder/train/javascript
