@@ -1,35 +1,14 @@
 function gps(s, x) {
-   
     container = []
  
     for (let i = 1; i < x.length; i++) {
         container.push(x[i] - x[i-1])
     }
-
     result = container.map(x=> Math.floor((3600 * x) / s))
 
     return x.length <= 1 ? 0 : Math.max(...result)
-
-
 }
 
-
-function gps(s, x) {
-   
-    container = []
- 
-    for (let i = 1; i < x.length; i++) {
-        container.push(x[i] - x[i-1])
-    }
-
-    result = container.map(x=> Math.floor((3600 * x) / s)).sort().reverse()
-    console.log(result[]);
-    
-
-    return x.length <= 1 ? 0 : Math.max(...result)
-
-
-}
 
 
 
