@@ -1,4 +1,4 @@
-# Code challenges i have done on codewars.com. Right now i am focusing on javascript
+# Code challenges i have done on codewars.com.
 
 
 
